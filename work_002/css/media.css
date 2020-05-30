@@ -1,0 +1,83 @@
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .profile-photo {
+    height: 500px;
+  }
+
+  .lines {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  .resume {
+    padding: 10px;
+  }
+
+  .resume-wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .list-item__title {
+    font-size: 14px
+  }
+
+  .list-item__date {
+    font-size: 14px;
+  }
+
+  .list-item__text {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .about-contacts_link {
+    display: block;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 567px) {
+  .logo-img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .logo-lines {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+
+  .container {
+    min-width: 320px;
+  }
+
+  .name {
+    letter-spacing: normal;
+  }
+
+  .level {
+    width: 50%;
+  }
+}
