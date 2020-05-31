@@ -1,0 +1,66 @@
+@media screen and (max-width: 932px) {
+
+  /**************************
+  *** Nav section with Her **
+  **************************/
+
+  html {
+    font-size: 45%;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  #logo {
+    padding: 2rem;
+    text-align: left;
+  }
+
+  .cloud {
+    top: -40%;
+    left: -50%;
+  }
+
+  .form-wrapper {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer h5 {
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 667px) {
+
+  /**************************
+  *** Nav section with Her **
+  **************************/
+  #logo {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .cloud {
+    width: 110rem;
+    height: 70rem;
+    top: -30%;
+    left: -50%;
+  }
+
+  .locations-head h2 {
+    padding: 20rem;
+    margin-left: -20rem;
+  }
+
+  /******************
+  **** Footer *******
+  ******************/
+
+
+
+}
