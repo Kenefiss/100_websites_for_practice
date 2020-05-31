@@ -1,0 +1,289 @@
+@media screen and (max-width: 765px) {
+
+  /********************
+  ***** Header ********
+  ********************/
+
+  .toggle {
+    clear: both;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    width: 100%;
+    color: #000;
+    background: #ffcc01;
+    transition: all .1s linear;
+  }
+
+  .toggle:hover {
+    background: #d3a900;
+  }
+
+  #checkbox__menu:checked+label .touch li {
+    opacity: 1;
+    visibility: visible;
+    transition: all .7s linear;
+  }
+
+  #checkbox__menu:checked+label .touch {
+    height: 350px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 0;
+    transition: height .3s linear;
+  }
+
+  .menu li {
+    display: flex;
+    align-self: center;
+    width: 95%;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .menu li a {
+    width: 95%;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+  }
+
+  .menu li a.logo {
+    font-size: 21px;
+    margin-right: 0px;
+  }
+
+  .menu li a.contacts {
+    margin-right: 0px;
+  }
+
+  /********************
+  ***** Intro *********
+  ********************/
+
+  .intro {
+    margin-top: 0;
+    display: block;
+    max-width: 100%;
+  }
+
+  .intro__img {
+    background-position: bottom 50px right 570px;
+  }
+
+  .intro .intro__text {
+    position: relative;
+    font-size: 35px;
+    right: -10px;
+    top: 95px;
+  }
+
+  .intro .intro__contacts {
+    right: 0;
+    top: -60px;
+    padding: 20px 10px;
+    position: relative;
+  }
+
+  .intro__contacts i {
+    margin-right: 10px;
+  }
+
+  .intro__contacts p {
+    font-size: 13px;
+    margin-right: 0;
+  }
+
+  /********************
+  ***** Stats *********
+  ********************/
+
+  .stats {
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .stats__text {
+    padding: 10px;
+  }
+
+  .stats__text h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .stats__text p {
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .square {
+    height: 140px;
+  }
+
+  /********************
+  ***** Apartments ****
+  ********************/
+
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-row-gap: 10px;
+    justify-items: center;
+  }
+
+  .apart input[type=text] {
+    margin-top: 20px;
+    width: 130px;
+  }
+
+  .buttons-search {
+    flex-direction: column;
+    margin-left: 4%;
+  }
+
+  .all {
+    background: #fff;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  /********************
+  ***** Steps *********
+  ********************/
+
+  .steps-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stepblock {
+    margin-top: 20px;
+  }
+
+  .step-text,
+  .steps h2 {
+    margin-left: 5%;
+    margin-bottom: 15px;
+  }
+
+  /********************
+  ***** Services ******
+  ********************/
+
+  .services h2 {
+    margin-bottom: 0px;
+    padding-left: 10px;
+  }
+
+  .services-container {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+
+  .services-img-container {
+    width: 100%;
+  }
+
+  .serv-text {
+    width: 100%;
+  }
+
+  /********************
+  ***** Agents ********
+  ********************/
+
+  .agents__cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .agent__card {
+    margin-top: 10px;
+  }
+
+  /********************
+***** Add ***********
+********************/
+
+  .add__line {
+    flex-direction: column;
+  }
+
+  .location {
+    font-size: 15px;
+    padding: 15px 10px 18px 11px;
+  }
+
+  .location-melbourn {
+    left: 100px;
+    bottom: 50px;
+  }
+
+  .add__line--right p {
+    margin-left: 5%;
+    margin-right: 0;
+  }
+
+  .location-australia {
+    left: 60px;
+    bottom: 50px;
+  }
+
+  .add__line h3 {
+    font-size: 25px;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    margin-left: 5%;
+  }
+
+  .add__line p {
+    margin-left: 5%;
+  }
+
+  .show-more {
+    font-size: 15px;
+    padding: 20px 50px 20px 35px;
+    margin-left: 15%;
+    margin-top: 20px;
+  }
+
+  /********************
+  ***** Footer ********
+  ********************/
+
+  .footer-block {
+    flex-direction: column;
+  }
+
+  .footer-logo h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .footer-search input[type=text] {
+    width: 80%;
+    height: 50px;
+    margin-top: 15px;
+  }
+
+  .footer-search {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    margin-left: 8%;
+    padding-right: 5%;
+  }
+}
