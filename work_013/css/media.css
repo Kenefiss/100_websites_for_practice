@@ -1,0 +1,116 @@
+@media screen and (max-width: 889px) {
+
+  /********************
+  ***** Nav Section ***
+  ********************/
+
+  .hero {
+    width: 100%;
+  }
+
+  .hero-introduction p {
+    padding: 5rem 3rem;
+  }
+
+
+  /*********************
+  **** Burger Menu *****
+  *********************/
+
+  .burger-menu {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+
+  .burger-menu span {
+    padding: 0.2rem 2rem;
+    background: var(--gray-text);
+    display: block;
+    margin: 0.5rem 0rem;
+    transition: all 0.5s ease;
+  }
+
+  .nav-links a {
+    color: #fff;
+    font-size: var(--header3);
+    text-decoration: underline;
+  }
+
+  .nav-links {
+    background: var(--background-color);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100%;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 1s ease;
+  }
+
+  .nav-open {
+    transform: translateX(-100%);
+  }
+
+  .toggle .line1 {
+    transform: rotateZ(45deg) translateY(300%);
+    background: #fff;
+  }
+
+  .toggle .line2 {
+    opacity: 0;
+  }
+
+  .toggle .line3 {
+    transform: rotateZ(-45deg) translateY(-300%);
+    background: #fff;
+  }
+
+  /********************
+  *** About Section ***
+  ********************/
+
+  .about-text div {
+    padding: 3rem 3rem;
+  }
+
+  /********************
+  ** Gallery Section **
+  ********************/
+
+
+  .gallery img {
+    grid-row: auto;
+    grid-column: auto;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+
+  .contact img {
+    display: none;
+  }
+
+  footer ul {
+    order: 1;
+  }
+
+  footer h4 {
+    order: 2;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  html {
+    --header1: 3rem;
+    --header2: 5rem;
+    --header3: 4rem;
+    --header4: 3rem;
+    --text: 3rem;
+    --big: 8rem;
+  }
+}
